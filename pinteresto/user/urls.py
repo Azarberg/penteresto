@@ -3,6 +3,5 @@ from django.contrib import admin
 from .views import *
 
 urlpatterns = [
-    path('', index),
-    path('post/', post)
+    path('', author)
 ]
